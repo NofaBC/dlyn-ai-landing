@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,28 +8,28 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   />
-  <title>Dlyn-AI | Stop Guessing Your Job Search. Let AI Guide You</title>
+  <title>Dlyn-AI | Apply Smarter. Stay Organized. Track Your Job Search</title>
   <meta
     name="description"
-    content="Stop wasting time applying blindly. Dlyn-AI helps you find the right roles, generate tailored applications, and track everything in one smart system."
+    content="Dlyn-AI helps job seekers apply smarter, track opportunities, and stay organized with an AI-powered job search system."
   />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://dlyn-ai.com/" />
 
-  <meta property="og:title" content="Dlyn-AI | Stop Guessing Your Job Search. Let AI Guide You" />
+  <meta property="og:title" content="Dlyn-AI | Apply Smarter. Stay Organized. Track Your Job Search" />
   <meta
     property="og:description"
-    content="Stop wasting time applying blindly. Dlyn-AI helps you find the right roles, generate tailored applications, and track everything in one smart system."
+    content="Dlyn-AI helps job seekers apply smarter, track opportunities, and stay organized with an AI-powered job search system."
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://dlyn-ai.com/" />
   <meta property="og:image" content="https://dlyn-ai.com/assets/dlyn-hero-image.png" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Dlyn-AI | Stop Guessing Your Job Search. Let AI Guide You" />
+  <meta name="twitter:title" content="Dlyn-AI | Apply Smarter. Stay Organized. Track Your Job Search" />
   <meta
     name="twitter:description"
-    content="Stop wasting time applying blindly. Dlyn-AI helps you find the right roles, generate tailored applications, and track everything in one smart system."
+    content="Dlyn-AI helps job seekers apply smarter, track opportunities, and stay organized with an AI-powered job search system."
   />
   <meta name="twitter:image" content="https://dlyn-ai.com/assets/dlyn-hero-image.png" />
 
@@ -39,6 +41,18 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-796203440');
+  </script>
+
+
+  <script>
+    function trackDlynCta(label) {
+      if (typeof gtag === "function") {
+        gtag('event', 'dlyn_ai_cta_click', {
+          event_category: 'engagement',
+          event_label: label
+        });
+      }
+    }
   </script>
 
   <style>
@@ -624,11 +638,9 @@
       <div class="top-links">
         <a
           class="mini-btn"
-          href="https://nofabusinessconsulting.com/dlyn-ai"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#how-it-works"
         >
-          Visit Full Dlyn Page
+          How It Works
         </a>
       </div>
     </header>
@@ -641,23 +653,24 @@
         </div>
 
         <h1>
-          Stop Guessing Your Job Search.
-          <span class="headline-accent">Let AI Guide You.</span>
+          Apply Smarter.
+          <span class="headline-accent">Stay Organized.</span>
         </h1>
 
         <p class="subheadline">
-          Stop wasting time applying blindly. Dlyn-AI helps you find the right roles,
-          generate tailored applications, and track everything in one smart system.
+          Dlyn-AI helps you track opportunities, improve your applications,
+          and manage your job search with one AI-powered system.
         </p>
 
         <div class="cta-row">
           <a
             class="btn btn-primary"
             href="https://nofabusinessconsulting.com/dlyn-ai"
+            onclick="trackDlynCta('hero_try_free')"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Try Dlyn-AI Now
+            Try Dlyn-AI Free
           </a>
 
           <a
@@ -671,21 +684,21 @@
         </div>
 
         <p class="micro-note">
-          Built by NOFA Business Consulting. Explore the full Dlyn-AI experience on the main product page.
+          Designed for job seekers who want structure, smarter applications, and a clearer next step.
         </p>
 
         <div class="stats-row">
           <div class="stat-card">
-            <div class="stat-value">Targeted</div>
-            <div class="stat-label">Find roles that fit better instead of applying blindly.</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">Tailored</div>
-            <div class="stat-label">Generate stronger, more relevant application materials.</div>
-          </div>
-          <div class="stat-card">
             <div class="stat-value">Tracked</div>
-            <div class="stat-label">Keep your job search organized in one smart system.</div>
+            <div class="stat-label">Keep every opportunity, status, and next step organized.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">Smarter</div>
+            <div class="stat-label">Improve applications with AI-guided support and clearer direction.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">Focused</div>
+            <div class="stat-label">Reduce chaos and move through your search with a simple system.</div>
           </div>
         </div>
       </section>
@@ -698,44 +711,44 @@
           />
 
           <div class="float-card top">
-            <p class="float-title">Find the right roles</p>
+            <p class="float-title">Track every application</p>
             <p class="float-text">
-              Stop wasting time on poor-fit opportunities and search with more direction.
+              Keep your opportunities, statuses, and follow-ups organized in one place.
             </p>
           </div>
 
           <div class="float-card bottom">
-            <p class="float-title">One smart system</p>
+            <p class="float-title">Apply smarter</p>
             <p class="float-text">
-              Generate tailored applications and keep your job search organized.
+              Use AI guidance to improve application materials and stay focused.
             </p>
           </div>
         </div>
       </section>
     </main>
 
-    <section class="mini-panels">
+    <section class="mini-panels" id="how-it-works">
       <div class="section-panel">
         <div class="section-icon">01</div>
-        <h3>Find the Right Roles</h3>
+        <h3>Track Applications</h3>
         <p>
-          Focus on better-fit opportunities instead of wasting time applying blindly.
+          Keep opportunities, statuses, follow-ups, and next steps organized in one smart system.
         </p>
       </div>
 
       <div class="section-panel">
         <div class="section-icon">02</div>
-        <h3>Generate Tailored Applications</h3>
+        <h3>Apply Smarter</h3>
         <p>
-          Create stronger, more relevant applications with AI-guided support.
+          Use AI-guided support to strengthen applications and communicate your fit more clearly.
         </p>
       </div>
 
       <div class="section-panel">
         <div class="section-icon">03</div>
-        <h3>Track Everything</h3>
+        <h3>Stay Organized</h3>
         <p>
-          Keep your search organized in one smart system so nothing slips through.
+          Replace scattered notes, tabs, and guesses with a focused job search workflow.
         </p>
       </div>
     </section>
@@ -749,16 +762,17 @@
     <div class="idle-box">
       <h2>See you there.</h2>
       <p>
-        When you’re ready, step into the full Dlyn-AI experience.
+        When you’re ready, start organizing your job search with Dlyn-AI.
       </p>
       <div class="idle-actions">
         <a
           class="btn btn-primary"
           href="https://nofabusinessconsulting.com/dlyn-ai"
+          onclick="trackDlynCta('overlay_try_free')"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Enter Dlyn-AI
+          Try Dlyn-AI Free
         </a>
         <button class="ghost-btn" id="dismissOverlay" type="button">
           Keep Exploring
